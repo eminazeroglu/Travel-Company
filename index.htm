@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    backgroundImage: {
+                        'footerbg': "url('./assets/img/bg_3.jpg.webp')",
+                    }
+                }
+            }
+        }
+      </script>
+</head>
+<body>
+    
+    <footer class="relative pb-[7em] h-[100%] sm:h-[100%]  bg-no-repeat ">
+        <img src="assets/img/bg_3.jpg.webp" class="absolute object-cover size-full z-[-1] " alt="">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 mb-[50px]">
+                <div class="pt-[3rem] border-r-2">
+                    <div class="pt-[3rem] px-[16px]">
+                        <h2 class="mb-[40px] text-[18px] font-bold">About</h2>
+                        <p class="text-[#00000080] mb-[16px]">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <div class="flex items-center">
+                            <div class="rounded-full bg-[#f15d30] size-[40px] inline-flex items-center justify-center mr-[10px]">
+                                <i class="text-white fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="rounded-full bg-[#f15d30] size-[40px] inline-flex items-center justify-center mr-[10px]">
+                                <i class="fa-brands fa-facebook-f text-white"></i>
+                            </div>
+                            <div class="rounded-full bg-[#f15d30] size-[40px] inline-flex items-center justify-center mr-[10px]">
+                                <i class="fa-brands fa-instagram text-white"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-[3rem] border-r-2">
+                    <div class="pt-[3rem] px-[16px]">
+                        <h2 class="mb-[40px] text-[18px] font-bold">Infromation</h2>
+                        <ul>
+                            <li class="pb-[8px]">
+                                <a class=" text-[#00000080]" href="#">Online Enquiry</a>
+                            </li>
+                            <li class="py-[8px]">
+                                <a class=" text-[#00000080]" href="#">General Enquiries</a>
+                            </li>
+                            <li class="py-[8px]">
+                                <a class=" text-[#00000080]" href="#">Booking Conditions</a>
+                            </li>
+                            <li class="py-[8px]">
+                                <a class=" text-[#00000080]" href="#">Privacy and Policy</a>
+                            </li>
+                            <li class="py-[8px]">
+                                <a class=" text-[#00000080]" href="#">Refund Policy</a>
+                            </li>
+                            <li class="py-[8px]">
+                                <a class=" text-[#00000080]" href="#">Call Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pt-[3rem] border-r-2">
+                    <div class="pt-[3rem] px-[16px]">
+                        <h2 class="mb-[40px] text-[18px] font-bold">Experience</h2>
+                        <ul>
+                            <li class="pb-[8px]">
+                                <a class=" text-[#00000080]" href="#">Adventure</a>
+                            </li>
+                            <li class="py-[8px]">
+                                <a class=" text-[#00000080]" href="#">Hotel and Restaurant</a>
+                            </li>
+                            <li class="py-[8px]">
+                                <a class=" text-[#00000080]" href="#">Beach</a>
+                            </li>
+                            <li class="py-[8px]">
+                                <a class=" text-[#00000080]" href="#">Nature</a>
+                            </li>
+                            <li class="py-[8px]">
+                                <a class=" text-[#00000080]" href="#">Camping</a>
+                            </li>
+                            <li class="py-[8px]">
+                                <a class=" text-[#00000080]" href="#">Party</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pt-[3rem] border-r-2">
+                    <div class="pt-[3rem] px-[16px]">
+                        <h2 class="mb-[40px] text-[18px] font-bold">Have a Questions?</h2>
+                        <ul>
+                            <li class="flex mb-[16px]">
+                                <span class="mr-[12px] text-[#f15d30] text-[12px]"><i class="fa-solid fa-location-dot"></i></span>
+                                <span class="text-[#00000080]">203 Fake St. Mountain View, San Francisco, California, USA</span>
+                            </li>
+                            <li class="flex mb-[16px]">
+                                <span class="mr-[12px] text-[#f15d30] text-[12px]"><i class="fa-solid fa-phone"></i></span>
+                                <a href="tel:+2 392 3929 210" class="text-[#00000080]">+2 392 3929 210</a>
+                            </li>
+                            <li class="flex mb-[16px]">
+                                <span class="mr-[12px] text-[#f15d30] text-[12px]"><i class="fa-solid fa-paper-plane"></i></span>
+                                <a href= "mailto: info@planla.az" class="text-[#00000080]">info@planla.az</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="text-[#00000080] text-center">Copyright ©2024 All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
